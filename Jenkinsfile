@@ -1,5 +1,5 @@
 node {
    stage ('Read file') {
-   echo 'DummySample'
+   type DummySample.txt
    }
 }
