@@ -1,0 +1,6 @@
+node {
+  stage ('read') {
+    def data = readFile(file: 'zorg.txt')
+    println(data)
+  }
+}
